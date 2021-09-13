@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1133559562966298739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423159969269529829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3853f39b8eb6d46bafed9207177c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileName: Grass
+  _renderer: {fileID: 1455024248675911183}
+  _highlight: {fileID: 6730733560319421600}
+  _isWalkable: 1
+  OccupiedUnit: {fileID: 0}
+  _baseColor: {r: 0.1653433, g: 0.6886792, b: 0.12715505, a: 1}
+  _offsetColor: {r: 0.16013399, g: 0.5, b: 0.13477087, a: 1}
+--- !u!1001 &6065539709727057735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7588311058923068322, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_Name
+      value: Grass Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313869261102076110, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+--- !u!1 &4423159969269529829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7588311058923068322, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+  m_PrefabInstance: {fileID: 6065539709727057735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1455024248675911183 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4619682641416216904, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+  m_PrefabInstance: {fileID: 6065539709727057735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6730733560319421600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 668079455552211943, guid: 6a94a9c3027a52d48aeb82c47d0920fc, type: 3}
+  m_PrefabInstance: {fileID: 6065539709727057735}
+  m_PrefabAsset: {fileID: 0}
